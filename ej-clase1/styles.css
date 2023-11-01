@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap');
+
+:root {
+    --main-font-family: 'Mulish';
+    --primary-bg-color: #000000a4;
+    --secondary-bg-color: #07373ea5;
+    --primary-color: #f7dd1a;
+    --secondary-color: #ffffff;
+}
+
+/* CSS Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    font-family: var(--main-font-family);
+    background-color: var(--secondary-bg-color) !important;
+}
+
+/* Formulario */
+.card {
+    background-color: var(--primary-bg-color) !important;
+}
+
+label {
+    padding-left: 5px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+input,
+textarea,
+select {
+    color: var(--secondary-color) !important;
+    background-color: var(--secondary-bg-color) !important;
+}
+
+input::file-selector-button {
+    font-weight: 500;
+    color: var(--secondary-bg-color) !important;
+    background-color: var(--primary-color) !important;
+    border-radius: 3px;
+}
+
+span {
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    font-weight: 300;
+}
