@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --main-font-family: 'Press Start 2P', cursive;
+    --primary-bg-color: #000000;
+    --secondary-bg-color: #37cf0026;
+    --primary-color: #1af71e;
+    --secondary-color: #ffffff;
+}
+
+/* CSS Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    font-family: var(--main-font-family) !important;
+    background-color: var(--primary-bg-color) !important;
+}
+
+/* Formulario */
+
+ol li::before {
+    color: var(--secondary-color);
+}
+
+ol, li, output, .form-control {
+    background-color: var(--secondary-bg-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+li {
+    padding: 2rem;
+}
+
+h1 {
+    color: var(--primary-color) !important;
+    text-align: center;
+}
+
+label {
+    padding-left: 5px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+output {
+    color: var(--secondary-color) !important;
+    font-weight: 500;
+}
